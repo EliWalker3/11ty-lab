@@ -1,16 +1,24 @@
+:root {
+    --font-color: #193D67;
+    --main-font: Helvetica;
+    --bg-color: #F7F7FF;
+    --blog-box-color: #D9D9D9;
+    --nav-bar-color: #D9D9D9;
+}
+
 body {
     font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+    color: var(--font-color);
+    background: var(--bg-color);
     padding: 0 40px;
     text-align: center;
 }
 
 nav {
     margin: 40px auto 0 auto;
-    width: 250px;
+    width: 350px;
     border-radius: 50px;
-    background: #212431;
+    background: var(--nav-bar-color);
 }
 
 nav ul {
@@ -27,24 +35,76 @@ nav ul li {
 
 nav ul li a {
     display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
+    padding: 20px 15px;
+    color: var(--font-color);
     text-decoration: none;
     font-size: 1.2em;
 }
 
+.title-span {
+    font-size: 28px;
+}
+
 h1 {
-    font-size: 8em;
+    font-size: 6em;
     letter-spacing: -2px;
 }
 
 h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(45deg, rgb(19, 19, 19) 0%, rgba(253,187,45,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-img.about {
-    opacity: 0.5;
+.blog-box {
+    color: var(--font-color);
+    width: 600px;
+    height: 500px;
+    background-color: var(--blog-box-color);
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.blog-box h2 {
+    font-family: var(--main-font), Arial, sans-serif;
+    padding-top: 20px;
+}
+
+a:active, a:hover, a:visited, a:link {
+    text-decoration: none;
+}
+
+.blog-section {
+    display: flex;
+    margin: 0 auto;
+}
+
+.blog-text p {
+    margin: 0 auto;
+    line-height: 30px;
+    display: block;
+    width: 600px;
+}
+
+.blog-text {
+    align-items: center;
+}
+
+.home-blog {
+    font-size: 36px;
+    margin: 30px;
+}
+
+.about-text {
+    text-align: center;
+}
+
+span {
+    font-weight: 800;
+}
+
+.credits {
+    font-style: italic;
+    font-size: 12px;
 }
