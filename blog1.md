@@ -4,7 +4,7 @@ title: Blog 1
 ---
 
 # Day <div class="title-span">(i guess?)</div> **1** 
-<!-- give me a blog post about time in space from the perspective of a lone human interstellar  -->
+<!-- ChatGPT: give me a blog post about time in space from the perspective of a lone human interstellar  -->
 ## A Million Midnights: Time in the Void
 
 <div class="blog-text"><p><span>Drifting Beyond the Clock</span>

@@ -4,7 +4,7 @@ title: Blog 2
 ---
 
 # Day <div class="title-span">(honestly what is the definition of day in space)</div> **150**
-<!-- give me a shorter, funy blog of a lone interstellar human -->
+<!-- ChatGPT: give me a shorter, funy blog of a lone interstellar human -->
 ## Time in Space: A Guide to Losing All Sense of Reality
 
 <div class="blog-text"><p>Listen, I used to think time was pretty straightforward. You wake up, drink coffee, go to work, complain about work, go home, watch TV, and repeat until retirement or the heat death of the universe—whichever comes first. But then I went to space, and let me tell you: time is a lie.
